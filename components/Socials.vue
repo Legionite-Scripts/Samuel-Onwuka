@@ -8,7 +8,7 @@
       <img src="@/assets/icons/linkedin.svg" />
     </a>
     <a
-      href="https://www.youtube.com/channel/UCWqfqkZvUv6GCBJwxyO1ghQ"
+      href="https://www.youtube.com/@legioniteWritesCode"
       target="_blank"
     >
       <img src="@/assets/icons/youtube.svg" />
