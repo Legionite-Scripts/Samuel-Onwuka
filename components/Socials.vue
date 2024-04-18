@@ -1,19 +1,25 @@
 <template>
-<div class="socials">
-          <p>Let's connect</p>
-          <a href="https://www.linkedin.com/in/superdeveloper/" target="_blank">
-            <img src="@/assets/icons/linkedin.svg"/>
-          </a>
-          <a href="https://www.youtube.com/@superdeveloper" target="_blank">
-            <img src="@/assets/icons/youtube.svg"/>
-          </a>
-          <a href="https://www.twitter.com/solomonmarvel97" target="_blank">
-            <img src="@/assets/icons/twitter.svg"/>
-          </a>
-          <a href="https://www.instagram.com/solomonmarvel97" target="_blank">
-            <img src="@/assets/icons/instagram.svg"/>
-          </a>
-        </div>
+  <div class="socials">
+    <p>Let's connect</p>
+    <a
+      href="https://www.linkedin.com/in/samuel-dave-825205263/"
+      target="_blank"
+    >
+      <img src="@/assets/icons/linkedin.svg" />
+    </a>
+    <a
+      href="https://www.youtube.com/channel/UCWqfqkZvUv6GCBJwxyO1ghQ"
+      target="_blank"
+    >
+      <img src="@/assets/icons/youtube.svg" />
+    </a>
+    <a href="https://twitter.com/TheLegionite" target="_blank">
+      <img src="@/assets/icons/twitter.svg" />
+    </a>
+    <a href="https://www.instagram.com/solomonmarvel97" target="_blank">
+      <img src="@/assets/icons/instagram.svg" />
+    </a>
+  </div>
 </template>
 
 <style scoped>

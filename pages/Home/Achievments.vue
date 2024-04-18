@@ -4,28 +4,26 @@
       <div class="container glow">
         <div class="grid">
           <p>Experience</p>
-          <h1>Software Engineer (8 years), Solutions Architect (4+ years)</h1>
+          <h1>Software Engineer (3 years), Web Designer (2+ years)</h1>
         </div>
       </div>
       <div class="container glow">
         <div class="grid">
           <p>Core Stack</p>
-          <h1>
-            AWS, Python, Typescript, Cloudflare, NodeJS, Rust, C++, React, VueJS
-          </h1>
+          <h1>JavaScript, Typescript, NodeJS, React, VueJS, NuxtJs</h1>
         </div>
       </div>
       <div class="container glow">
         <div class="grid">
           <p>Proficiency</p>
           <h1>
-            AWS Cloud, Cloudflare, API Design, Systems Design, Software
-            Architecture, Distributed Systems
+            Development and implementation of high-performance software, Design
+            and building of user-friendly and responsive web interfaces.
           </h1>
         </div>
       </div>
 
-      <div class="container glow">
+      <!-- <div class="container glow">
         <div class="grid">
           <p>Achievements</p>
           <h1>
@@ -33,18 +31,18 @@
             @boltcliq, Building @swiftgo
           </h1>
         </div>
-      </div>
+      </div> -->
 
       <div class="container glow">
         <div class="grid">
           <p>Recent Interests</p>
-          <h1>Machine learning, Serverless Computing & Distributed Systems</h1>
+          <h1>Cloud Computing, AWS</h1>
         </div>
       </div>
 
       <div class="container glow">
         <div class="grid">
-          <p class="mb-2">2023 Certifications</p>
+          <p class="mb-2">2024 Certifications</p>
           <div class="flex">
             <a
               target="_blank"
