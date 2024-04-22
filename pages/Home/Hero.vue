@@ -58,16 +58,16 @@
     </div>
     <div class="center">
       <iframe
-        width="1273"
-        height="716"
-        src="https://www.youtube.com/embed/HZuk6Wkx_Eg"
-        title="Figma tutorial for Beginners: Complete Website from Start to Finish"
+        width="1280"
+        height="720"
+        src="https://www.youtube.com/embed/TlB_eWDSMt4"
+        title="Node.js Tutorial for Beginners: Learn Node in 1 Hour"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
         class="mb-5"
-      ></iframe
-      >"
+      ></iframe>
     </div>
   </div>
 </template>
