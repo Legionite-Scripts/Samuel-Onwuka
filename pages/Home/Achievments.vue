@@ -23,15 +23,15 @@
         </div>
       </div>
 
-      <!-- <div class="container glow">
+      <div class="container glow">
         <div class="grid">
           <p>Achievements</p>
           <h1>
-            Co-founder/CEO @topuniverse, Founder & Solutions Architect
-            @boltcliq, Building @swiftgo
+           Competed in the 2024 Marv Magic Farm25 Hackathon @TopUniverse
+           
           </h1>
         </div>
-      </div> -->
+      </div>
 
       <div class="container glow">
         <div class="grid">
