@@ -4,7 +4,11 @@
       <h2 class="mb-5">What clients & friends say.</h2>
     </div>
     <div class="testimonials-grid">
-      <div class="testimonials-item glass glow" v-for="(item, index) in testimonials" :key="index">
+      <div
+        class="testimonials-item glass glow"
+        v-for="(item, index) in testimonials"
+        :key="index"
+      >
         <img loading="lazy" class="mb-1" :src="item.image" />
         <h4 class="mb-1">{{ item.name }}</h4>
         <p class="mb-1">{{ item.text }}</p>
@@ -15,9 +19,9 @@
 </template>
 
 <script>
-import { testimonials } from '@/data/testimonials.js';
+import { testimonials } from "@/data/testimonials.js";
 export default {
-  layout: 'web',
+  layout: "web",
   data() {
     return {
       testimonials: testimonials,
@@ -27,9 +31,8 @@ export default {
 </script>
 
 <style>
-
 .testimonials {
-    padding-top: 4em;
+  padding-top: 4em;
 }
 
 .testimonials-grid {
@@ -46,19 +49,19 @@ export default {
   padding: 15px;
   width: 100%;
   position: relative;
-  border: .1px dashed rgba(255, 255, 255, 0.151);
-  border: .1px solid transparent !important;
+  border: 0.1px dashed rgba(255, 255, 255, 0.151);
+  border: 0.1px solid transparent !important;
 }
 
 .testimonials-item:hover {
-  border: .1px dashed var(--secondary) !important;
+  border: 0.1px dashed var(--secondary) !important;
 }
 
 .testimonials-item img {
   height: 40px;
   width: 40px;
   padding: 2px;
-  border: .5px dashed rgba(255, 255, 255, 0.373);
+  border: 0.5px dashed rgba(255, 255, 255, 0.373);
   border-radius: 50%;
   object-fit: cover;
 }
@@ -80,5 +83,4 @@ export default {
   padding-bottom: 2em;
   line-height: 1.5;
 }
-
 </style>

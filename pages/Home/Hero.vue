@@ -7,8 +7,8 @@
         </div>
         <h1 class="mb-3 mt-5 gradient-text">Samuel Onwuka</h1>
         <p>
-          FullStack Developer | Building startups one codebase at a time | AI
-          Enthusiast | Language Instructor @Teensclub | Web Developer
+          FullStack Developer | Building a legacy one codebase at a time | AI & Cloud
+          Enthusiast | Web Dev @The Rendezvouz Dating App | Web Dev
           @KidsClubZone, Top Universe
         </p>
 
