@@ -27,8 +27,7 @@
         <div class="grid">
           <p>Achievements</p>
           <h1>
-           Competed and Won the 2024 Marv Magic Farm25 Hackathon @TopUniverse
-           
+            Competed and Won the 2024 Marv Magic Farm25 Hackathon @TopUniverse
           </h1>
         </div>
       </div>

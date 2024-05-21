@@ -41,7 +41,7 @@
         </div>
         <div class="mobile-header">
           <NuxtLink class="logo" to="/">
-            <p>solomonmarvel97</p>
+            <p>Samuel Onwuka</p>
           </NuxtLink>
           <button class="open_toggle" @click="toggle"></button>
         </div>
