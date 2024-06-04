@@ -7,8 +7,8 @@
         </div>
         <h1 class="mb-3 mt-5 gradient-text">Samuel Onwuka</h1>
         <p>
-          FullStack Developer | Building a legacy one codebase at a time | AI & Cloud
-          Enthusiast | Web Dev @The Rendezvouz Dating App | Web Dev
+          FullStack Developer | Building a legacy one codebase at a time | AI &
+          Cloud Enthusiast | Web Dev @The Rendezvouz Dating App | Web Dev
           @KidsClubZone, Top Universe
         </p>
 
@@ -290,5 +290,9 @@ h1 {
 
 .bringtofront {
   color: white;
+}
+.center > iframe {
+  width: auto !important;
+  height: auto !important;
 }
 </style>
