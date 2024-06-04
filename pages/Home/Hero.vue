@@ -279,6 +279,10 @@ h1 {
   .multipreneur {
     letter-spacing: 5px;
   }
+  .center > iframe {
+  width: auto !important;
+  height: auto !important;
+}
 }
 
 .bringtofront {
@@ -291,8 +295,5 @@ h1 {
 .bringtofront {
   color: white;
 }
-.center > iframe {
-  width: auto !important;
-  height: auto !important;
-}
+
 </style>
