@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-16",
       viewport: "width=500, initial-scale=1",
-      title: "Home - Samuel Onwuka",
+      title: "Samuel Onwuka",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Software Engineer | AI/NLP Engineer | Solutions Architect | Mentor",
+            "FullStack Software Engineer | Web Designer",
         },
         { name: "format-detection", content: "telephone=no" },
         { name: "theme-color", content: "#53ff70" },
