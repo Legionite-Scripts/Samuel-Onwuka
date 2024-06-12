@@ -10,7 +10,7 @@
       <div class="container glow">
         <div class="grid">
           <p>Core Stack</p>
-          <h1>JavaScript, Typescript, NodeJS, React, VueJS, NuxtJs</h1>
+          <h1>JavaScript, NodeJS, ExpressJS, React, VueJS, Nuxt</h1>
         </div>
       </div>
       <div class="container glow">
