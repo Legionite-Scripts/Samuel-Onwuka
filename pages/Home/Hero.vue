@@ -58,15 +58,15 @@
     </div>
     <div class="center">
       <iframe
+      class="mb-3"
         width="1280"
         height="720"
-        src="https://www.youtube.com/embed/TlB_eWDSMt4"
-        title="Node.js Tutorial for Beginners: Learn Node in 1 Hour"
+        src="https://www.youtube.com/embed/NsK7OPlK94U"
+        title="Linux Command-Line Tips &amp; Tricks: Over 15 Examples!"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-        class="mb-5"
       ></iframe>
     </div>
   </div>
@@ -280,9 +280,9 @@ h1 {
     letter-spacing: 5px;
   }
   .center > iframe {
-  width: auto !important;
-  height: auto !important;
-}
+    width: auto !important;
+    height: auto !important;
+  }
 }
 
 .bringtofront {
@@ -295,5 +295,4 @@ h1 {
 .bringtofront {
   color: white;
 }
-
 </style>
