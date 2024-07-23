@@ -69,6 +69,7 @@
         allowfullscreen
       ></iframe>
     </div>
+    <loadAnimation/>
   </div>
 </template>
 
