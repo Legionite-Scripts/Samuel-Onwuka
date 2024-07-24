@@ -1,164 +1,118 @@
 <template>
-    <div class="container">
-        <div class="loader">
-<div class="loader-square"></div>
-<div class="loader-square"></div>
-<div class="loader-square"></div>
-<div class="loader-square"></div>
-<div class="loader-square"></div>
-<div class="loader-square"></div>
-<div class="loader-square"></div>
-</div>
-    </div>
+  <div class="loader">
+    <div class="cell d-0"></div>
+    <div class="cell d-1"></div>
+    <div class="cell d-2"></div>
+
+    <div class="cell d-1"></div>
+    <div class="cell d-2"></div>
+
+    <div class="cell d-2"></div>
+    <div class="cell d-3"></div>
+
+    <div class="cell d-3"></div>
+    <div class="cell d-4"></div>
+  </div>
 </template>
 
 <style scoped>
-@keyframes square-animation {
- 0% {
-  left: 0;
-  top: 0;
- }
-
- 10.5% {
-  left: 0;
-  top: 0;
- }
-
- 12.5% {
-  left: 32px;
-  top: 0;
- }
-
- 23% {
-  left: 32px;
-  top: 0;
- }
-
- 25% {
-  left: 64px;
-  top: 0;
- }
-
- 35.5% {
-  left: 64px;
-  top: 0;
- }
-
- 37.5% {
-  left: 64px;
-  top: 32px;
- }
-
- 48% {
-  left: 64px;
-  top: 32px;
- }
-
- 50% {
-  left: 32px;
-  top: 32px;
- }
-
- 60.5% {
-  left: 32px;
-  top: 32px;
- }
-
- 62.5% {
-  left: 32px;
-  top: 64px;
- }
-
- 73% {
-  left: 32px;
-  top: 64px;
- }
-
- 75% {
-  left: 0;
-  top: 64px;
- }
-
- 85.5% {
-  left: 0;
-  top: 64px;
- }
-
- 87.5% {
-  left: 0;
-  top: 32px;
- }
-
- 98% {
-  left: 0;
-  top: 32px;
- }
-
- 100% {
-  left: 0;
-  top: 0;
- }
-}
-
 .loader {
- position: fixed;
- bottom: 0;
- right: 0;
- margin: 5em;
- width: 3em;
- height: 3em;
- transform: rotate(45deg);
- z-index: 10;
+  --cell-size: 35px;
+  --cell-spacing: 1px;
+  --cells: 3;
+  --total-size: calc(
+    var(--cells) * (var(--cell-size) + 2 * var(--cell-spacing))
+  );
+  display: flex;
+  flex-wrap: wrap;
+  width: var(--total-size);
+  height: var(--total-size);
+  position: fixed;
+  right:5%;
+  bottom: 2%;
 
- @media(width<768px){
+  @media(width<768px){
     display: none;
- }
+  }
 }
 
-.loader-square {
- position: absolute;
- top: 0;
- left: 0;
- width: 28px;
- height: 28px;
- margin: 2px;
- border-radius: 0px;
- background: white;
- background-size: cover;
- background-position: center;
- background-attachment: fixed;
- animation: square-animation 10s ease-in-out infinite both;
+.cell {
+  flex: 0 0 var(--cell-size);
+  margin: var(--cell-spacing);
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 4px;
+  animation: 1.5s ripple ease infinite;
 }
 
-.loader-square:nth-of-type(0) {
- animation-delay: 0s;
+.cell.d-1 {
+  animation-delay: 100ms;
 }
 
-.loader-square:nth-of-type(1) {
- animation-delay: -1.4285714286s;
+.cell.d-2 {
+  animation-delay: 200ms;
 }
 
-.loader-square:nth-of-type(2) {
- animation-delay: -2.8571428571s;
+.cell.d-3 {
+  animation-delay: 300ms;
 }
 
-.loader-square:nth-of-type(3) {
- animation-delay: -4.2857142857s;
+.cell.d-4 {
+  animation-delay: 400ms;
 }
 
-.loader-square:nth-of-type(4) {
- animation-delay: -5.7142857143s;
+.cell:nth-child(1) {
+  --cell-color: #00ff87;
 }
 
-.loader-square:nth-of-type(5) {
- animation-delay: -7.1428571429s;
+.cell:nth-child(2) {
+  --cell-color: #0cfd95;
 }
 
-.loader-square:nth-of-type(6) {
- animation-delay: -8.5714285714s;
+.cell:nth-child(3) {
+  --cell-color: #17fba2;
 }
 
-.loader-square:nth-of-type(7) {
- animation-delay: -10s;
+.cell:nth-child(4) {
+  --cell-color: #23f9b2;
+}
+
+.cell:nth-child(5) {
+  --cell-color: #30f7c3;
+}
+
+.cell:nth-child(6) {
+  --cell-color: #3df5d4;
+}
+
+.cell:nth-child(7) {
+  --cell-color: #45f4de;
+}
+
+.cell:nth-child(8) {
+  --cell-color: #53f1f0;
+}
+
+.cell:nth-child(9) {
+  --cell-color: #60efff;
+}
+
+/*Animation*/
+@keyframes ripple {
+  0% {
+    background-color: transparent;
+  }
+
+  30% {
+    background-color: var(--cell-color);
+  }
+
+  60% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: transparent;
+  }
 }
 </style>
