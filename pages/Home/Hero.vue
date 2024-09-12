@@ -69,7 +69,7 @@
         allowfullscreen
       ></iframe>
     </div>
-    <loadAnimation/>
+    <socialIcons/>
   </div>
 </template>
 

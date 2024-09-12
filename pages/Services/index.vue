@@ -11,6 +11,7 @@
         :title="i.title"
       />
     </div>
+    <socialIcons />
   </section>
 </template>
 

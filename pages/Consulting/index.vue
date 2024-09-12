@@ -46,6 +46,7 @@
           </div>
         </a> -->
       </div>
+      <socialIcons />
     </section>
   </div>
 </template>
