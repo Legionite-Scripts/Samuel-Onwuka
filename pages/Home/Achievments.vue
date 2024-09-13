@@ -10,7 +10,8 @@
       <div class="container glow">
         <div class="grid">
           <p>Core Stack</p>
-          <h1>JavaScript, NodeJS, ExpressJS, React, VueJS, Nuxt</h1>
+          <h1>JavaScript - ReactJS,NextJS VueJS, NuxtJS, ExpressJS</h1>
+          <h1>Python - FastAPI</h1>
         </div>
       </div>
       <div class="container glow">
@@ -26,16 +27,14 @@
       <div class="container glow">
         <div class="grid">
           <p>Achievements</p>
-          <h1>
-            Competed and Won the 2024 Marv Magic Farm25 Hackathon @TopUniverse
-          </h1>
+          <h1>Competed and Won the 2024 Farm25 Hackathon @TopUniverse</h1>
         </div>
       </div>
 
       <div class="container glow">
         <div class="grid">
           <p>Recent Interests</p>
-          <h1>Cloud Computing, AWS</h1>
+          <h1>Cloud Engineering, Azure, AWS</h1>
         </div>
       </div>
 

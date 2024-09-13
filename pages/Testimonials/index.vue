@@ -15,7 +15,7 @@
         <p class="company">{{ item.company }}</p>
       </div>
     </div>
-    <socialIcons/>
+    <socialIcons />
   </section>
 </template>
 

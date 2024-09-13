@@ -283,4 +283,6 @@
 .acent-color {
     color: var(--acent) !important;
 }
-
+.yellow-text{
+    color: #ffb93f;
+}
