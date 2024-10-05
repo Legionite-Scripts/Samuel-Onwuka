@@ -1,23 +1,23 @@
 const portfolio = [
   {
-    position: `Web Developer`,
+    position: `Frontend Engineer`,
     platform: `Top Universe`,
     link: `https://topuniverse.org`,
     image: `https://topuniverse.org/ogimage.png`,
   },
 
   {
-    position: `Web Developer`,
+    position: `Frontend Engineer`,
     platform: `BetaKopa`,
     link: `https://betakopa.com`,
     image: `https://betakopa.com/ogimage.png`,
   },
-  // {
-  //   position: `Founding Partner`,
-  //   platform: `The Boltcliq Company`,
-  //   link: `https://boltcliq.com`,
-  //   image: `https://images.unsplash.com/photo-1655721533500-c73a495dbcb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80`
-  // },
+  {
+    position: `FullStack Developer`,
+    platform: `The Boltcliq Company`,
+    link: `https://boltcliq.com`,
+    image: `https://images.unsplash.com/photo-1655721533500-c73a495dbcb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80`,
+  },
   {
     position: `Web Developer`,
     platform: `KidsClubZone`,
@@ -29,6 +29,12 @@ const portfolio = [
     platform: `TeensClub`,
     link: `https://techiesgarage.org`,
     image: `https://teens.kidsclubzone.com/images/hero/heroImage.webp`,
+  },
+  {
+    position: `Frontend Engineer`,
+    platform: `Deployed IT Solutions`,
+    link: `https://deployeditsolutions.com`,
+    image: `https://images.unsplash.com/photo-1719937050792-a6a15d899281?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
   },
   // {
   //   position: `Founding Partner`,

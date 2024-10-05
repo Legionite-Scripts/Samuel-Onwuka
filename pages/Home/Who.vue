@@ -4,11 +4,12 @@
       <p class="mb-3 text-black">who am i?</p>
       <h1 class="text-black">
         I am Samuel Onwuka, a passionate and experienced
-        <span class="yellow-text">Full-Stack Web Developer</span> with expertise in modern
-        <span class="yellow-text">JavaScript and Python technologies</span> for front-end and back-end
-        development. This proficiency allows me to seamlessly navigate both
-        sides of the development process, ensuring a cohesive and efficient
-        creation of feature-rich web applications.
+        <span class="yellow-text">Full-Stack Web Developer</span> with expertise
+        in modern
+        <span class="yellow-text">JavaScript and Python technologies</span> for
+        front-end and back-end development. This proficiency allows me to
+        seamlessly navigate both sides of the development process, ensuring a
+        cohesive and efficient creation of feature-rich web applications.
       </h1>
     </section>
   </div>

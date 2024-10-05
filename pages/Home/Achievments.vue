@@ -4,14 +4,14 @@
       <div class="container glow">
         <div class="grid">
           <p>Experience</p>
-          <h1>Software Engineer (3 years), Web Designer (2+ years)</h1>
+          <h1>Software Engineer <span class="yellow-text">(3 years)</span>, Web Designer <span class="yellow-text">(2+ years)</span></h1>
         </div>
       </div>
       <div class="container glow">
         <div class="grid">
           <p>Core Stack</p>
-          <h1>JavaScript - ReactJS,NextJS VueJS, NuxtJS, ExpressJS</h1>
-          <h1>Python - FastAPI</h1>
+          <h1>JavaScript - <span class="yellow-text">ReactJS,NextJS VueJS, NuxtJS, ExpressJS</span></h1>
+          <h1>Python - <span class="yellow-text">FastAPI</span></h1>
         </div>
       </div>
       <div class="container glow">

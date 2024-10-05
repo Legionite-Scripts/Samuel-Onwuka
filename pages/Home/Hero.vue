@@ -7,9 +7,8 @@
         </div>
         <h1 class="mb-3 mt-5 gradient-text">Samuel Onwuka</h1>
         <p>
-          FullStack Developer | Building a legacy one codebase at a time | AI &
-          Cloud Enthusiast | Web Dev @The Rendezvouz Dating App | Web Dev
-          @KidsClubZone, Top Universe
+          FullStack Web Developer | Building a legacy one codebase at a time |
+          AI & Cloud Enthusiast | Web Dev @The Boltcliq Company
         </p>
 
         <div class="button-flex cta mt-4">
@@ -58,7 +57,7 @@
     </div>
     <div class="center">
       <iframe
-      class="mb-3"
+        class="mb-3"
         width="1280"
         height="720"
         src="https://www.youtube.com/embed/NsK7OPlK94U"
@@ -69,7 +68,7 @@
         allowfullscreen
       ></iframe>
     </div>
-    <socialIcons/>
+    <socialIcons />
   </div>
 </template>
 

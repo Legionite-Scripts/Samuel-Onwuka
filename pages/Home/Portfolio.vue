@@ -3,7 +3,8 @@
     <section>
       <div class="mt-8 mb-8">
         <div>
-          <h1 class="mb-5">Portfolio & Interests</h1>
+          <h3 class="yellow-text">Experience</h3>
+          <h1 class="mb-5">Where I've Worked?</h1>
         </div>
 
         <div class="portfolio-grid">
