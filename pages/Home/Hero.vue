@@ -3,7 +3,9 @@
     <section class="hero">
       <div>
         <div class="mb-4">
-          <p class="multipreneur">TECH&nbsp;OMNIVORE</p>
+          <p class="neon-blue">
+            From Concept to Code: Your Vision. Deployed
+          </p>
         </div>
         <h1 class="mb-3 mt-5 gradient-text">Samuel Onwuka</h1>
         <p>
@@ -57,7 +59,7 @@
     </div>
     <div class="center">
       <iframe
-      class="mb-3"
+        class="mb-3"
         width="1280"
         height="720"
         src="https://www.youtube.com/embed/ECnqartfjIM"
@@ -142,7 +144,6 @@ h1 {
 }
 
 .hero p {
-  width: 60%;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
