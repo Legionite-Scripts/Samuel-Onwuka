@@ -3,7 +3,7 @@
     <section>
       <div class="mt-8 mb-8">
         <div>
-          <h3 class="yellow-text">Experience</h3>
+          <h3 class="neon-blue">Experience</h3>
           <h1 class="mb-5">Where I've Worked?</h1>
         </div>
 

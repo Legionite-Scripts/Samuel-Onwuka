@@ -73,6 +73,18 @@ form label {
   position: relative;
   display: inline-block;
 }
+.form-label-group {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.form-label-group > img {
+  width: 20px !important;
+  height: 20px !important;
+  object-fit: cover;
+}
 
 form input[type="text"],
 input[type="password"], input[type="email"] {

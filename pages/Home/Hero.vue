@@ -57,11 +57,11 @@
     </div>
     <div class="center">
       <iframe
-        class="mb-3"
+      class="mb-3"
         width="1280"
         height="720"
-        src="https://www.youtube.com/embed/NsK7OPlK94U"
-        title="Linux Command-Line Tips &amp; Tricks: Over 15 Examples!"
+        src="https://www.youtube.com/embed/ECnqartfjIM"
+        title="AWS vs Azure vs GCP | Which one should you learn?"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"

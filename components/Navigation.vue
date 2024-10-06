@@ -5,7 +5,10 @@
       <section>
         <div class="menu-wrapper">
           <NuxtLink class="logo" to="/">
-            <p>Samuel Onwuka</p>
+            <p class="form-label-group">
+              Samuel Onwuka
+              <img src="../public/bulb-icon.png" alt="Bright Idea" />
+            </p>
           </NuxtLink>
           <div>
             <div class="menu">

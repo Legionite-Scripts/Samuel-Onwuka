@@ -285,9 +285,11 @@
 }
 .yellow-text {
   color: #ffb93f;
-
-  /* background: linear-gradient(90deg, #ff7e5f, #feb47b); */
-  background: linear-gradient(25deg, #ffb93f,#ffb93f, #feb47b);
+}
+.neon-blue {
+  color: #0093e9;
+  background: linear-gradient(180deg, #9efff4, #00a2ff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
