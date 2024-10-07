@@ -154,7 +154,7 @@ export default {
 }
 
 .scroll {
-  background-color: black;
+  background-color: black !important;
 }
 
 .logo {
