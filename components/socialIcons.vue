@@ -1,11 +1,19 @@
 <template>
-  <a href="https://wa.me/+2349043683675" target="_blank" title="Contact me on Whatsapp">
+  <a
+    href="https://wa.me/+2349043683675"
+    target="_blank"
+    title="Contact me on Whatsapp"
+  >
     <div class="whatsapp center">
       <img src="@/assets/icons/whatsapp.png" alt="Whatsapp" />
     </div>
   </a>
 
-  <a href="https://x.com/TheLegionite" target="_blank" title="Let's connect on X!">
+  <a
+    href="https://x.com/TheLegionite"
+    target="_blank"
+    title="Let's connect on X!"
+  >
     <div class="x left center">
       <img src="@/assets/icons/x-social.png" alt="Twitter(X)" />
     </div>

@@ -293,3 +293,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.neon-purple {
+  /* color: #0093e9; */
+  background: linear-gradient(180deg,#B284BE,#DF73FF,#8F00FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

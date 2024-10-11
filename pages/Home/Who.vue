@@ -3,13 +3,16 @@
     <section>
       <p class="mb-3 text-black">who am i?</p>
       <h1 class="text-black">
-        I am <span class="neon-blue">Samuel Onwuka</span>, a passionate and experienced
-        <span class="neon-blue">Full-Stack Web Developer</span> with expertise
-        in modern
+        I am <span class="neon-blue">Samuel Onwuka</span>, a passionate and
+        experienced <span class="neon-blue">Full-Stack Web Developer</span> with
+        expertise in modern
         <span class="neon-blue">JavaScript and Python </span>technologies for
-        front-end and back-end development. This proficiency allows me to
-        seamlessly navigate both sides of the development process, ensuring a
-        cohesive and efficient creation of feature-rich web applications.
+        <span class="neon-blue">front-end</span> and
+        <span class="neon-blue">back-end</span> development. This proficiency
+        allows me to seamlessly navigate both sides of the development process,
+        ensuring a
+        <span class="neon-blue">cohesive and efficient</span> creation of
+        <span class="neon-blue">feature-rich</span> web applications.
       </h1>
     </section>
   </div>

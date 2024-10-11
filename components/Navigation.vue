@@ -13,16 +13,16 @@
           <div>
             <div class="menu">
               <ul>
-                <li class="item">
+                <!-- <li class="item">
                   <a target="_blank" href="https://blog.boltcliq.com/"
                     >Publications</a
                   >
-                </li>
+                </li> -->
                 <li class="item">
                   <a
                     class="item"
                     target="_blank"
-                    href="https://blog.topuniverse.org/author/marvelous/"
+                    href="https://dev-unplugged.hashnode.dev/"
                     >Articles</a
                   >
                 </li>
@@ -32,9 +32,9 @@
                 <li class="item">
                   <a href="/mentoring">Mentoring</a>
                 </li>
-                <li class="item">
+                <!-- <li class="item">
                   <nuxt-link to="/testimonials">Testimonials</nuxt-link>
-                </li>
+                </li> -->
                 <li class="item">
                   <a href="/courses/git" rel="noopener">Courses</a>
                 </li>
