@@ -58,7 +58,7 @@ export default defineNuxtConfig({
         {
           hid: "twitter:image",
           name: "twitter:image",
-          content: "https://solomonmarvel.com/ogimage.png",
+          content: "https://samuel-onwuka.vercel.app/ogimage.png",
         },
       ],
       link: [

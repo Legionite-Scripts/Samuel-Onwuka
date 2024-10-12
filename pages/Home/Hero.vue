@@ -72,69 +72,7 @@
     <socialIcons />
   </div>
 </template>
-<script setup>
-// import { useHead } from '@vueuse/head';
 
-useHead({
-  title: "Samuel Onwuka - Web Developer | Portfolio",
-  meta: [
-    {
-      name: "description",
-      content: "Welcome to the portfolio of Samuel Onwuka, a full-stack web developer specializing in modern web technologies like Nuxt 3, Vue.js, and more.",
-    },
-    {
-      name: "keywords",
-      content: "samuel onwuka, samuel, web developer, full stack, portfolio, Nuxt 3, Vue.js, JavaScript, Legionite",
-    },
-    { name: "author", content: "Samuel Onwuka" },
-    // Open Graph (OG) tags for social media
-    { property: "og:title", content: "Samuel Onwuka - Web Developer" },
-    {
-      property: "og:description",
-      content: "Explore the portfolio of Samuel Onwuka, showcasing full-stack web development projects and skills.",
-    },
-    {
-      property: "og:image",
-      content: "https://yourdomain.com/images/og-image.jpg",
-    },
-    { property: "og:url", content: "https://yourdomain.com" },
-    // Twitter card for social sharing
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "Samuel Onwuka - Web Developer" },
-    {
-      name: "twitter:description",
-      content: "Showcasing the portfolio and web development projects of Samuel Onwuka",
-    },
-    {
-      name: "twitter:image",
-      content: "https://yourdomain.com/images/og-image.jpg",
-    },
-    // Adding schema markup
-    {
-      hid: 'schema',
-      innerHTML: `
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Samuel Onwuka",
-          "jobTitle": "Full-Stack Web Developer",
-          "url": "https://yourdomain.com",
-          "image": "https://yourdomain.com/images/avatar/me.webp",
-          "sameAs": [
-            "https://www.linkedin.com/in/samuel-dave-825205263/",
-            "https://twitter.com/TheLegionite",
-            "https://github.com/legionite-scripts"
-          ],
-          "worksFor": {
-            "@type": "Organization",
-            "name": "The Boltcliq Company"
-          }
-        }
-      `,
-    },
-  ],
-});
-</script>
 
 <style scoped>
 .custom-twitch-iframe {
