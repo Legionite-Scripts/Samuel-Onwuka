@@ -18,6 +18,6 @@
     "vite-svg-loader": "^4.0.0"
   },
   "dependencies": {
-
+    "gsap": "^3.12.5"
   }
 }

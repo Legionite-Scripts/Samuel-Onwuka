@@ -5,7 +5,7 @@
         <div class="mb-4">
           <p class="neon-blue">From Concept to Code: Your Vision. Deployed</p>
         </div>
-        <h1 class="mb-3 mt-5 gradient-text">Samuel Onwuka</h1>
+        <h1 class="mb-3 mt-5 gradient-text" ref="scrambleText"></h1>
         <p>
           Full-Stack Web Developer | Crafting Innovative Solutions with Code |
           AI & Cloud Technology Enthusiast | Web Developer at The Boltcliq
@@ -73,6 +73,29 @@
   </div>
 </template>
 
+
+<script setup>
+import { onMounted, ref } from 'vue';
+
+const scrambleText = ref(null);
+
+onMounted(() => {
+  if (process.client) {
+    const gsap = useNuxtApp().$gsap;
+
+    gsap.to(scrambleText.value, {
+      duration: 2,
+      text: {
+        value: "Samuel Onwuka",
+        scramble: true,
+      },
+      repeat: 0, 
+      repeatDelay: 1,
+      ease: "none",
+    });
+  }
+});
+</script>
 
 <style scoped>
 .custom-twitch-iframe {

@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
+  plugins: ['~/plugins/gsap.client.js'],
   app: {
     head: {
       charset: "utf-8",  // Change to utf-8 for better compatibility
