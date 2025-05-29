@@ -79,7 +79,7 @@
   width: 10em;
   cursor: pointer;
   /* background-color: #0cb44f; */
-  border: 0.5px solid #fff;
+  /* border: 0.5px solid #f2f2f2; */
   border-left: none;
 }
 </style>
