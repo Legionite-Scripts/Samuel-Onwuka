@@ -8,8 +8,7 @@
         <h1 class="mb-3 mt-5 gradient-text">Samuel Onwuka</h1>
         <p>
           Full-Stack Web Developer | Crafting Innovative Solutions with Code |
-          AI & Cloud Technology Enthusiast | Web Developer at The Boltcliq
-          Company
+          AI & Cloud Technology Enthusiast | Web Developer @Dosh
         </p>
 
         <div class="button-flex cta mt-4">
@@ -61,7 +60,7 @@
         class="mb-3"
         width="1280"
         height="720"
-        src="https://www.youtube.com/embed/ECnqartfjIM"
+        src="https://www.youtube.com/embed/8tx2viHpgA8"
         title="AWS vs Azure vs GCP | Which one should you learn?"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

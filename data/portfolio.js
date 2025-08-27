@@ -10,13 +10,13 @@ const portfolio = [
     position: `Frontend Engineer`,
     platform: `BetaKopa`,
     link: `https://betakopa.com`,
-    image: `https://betakopa.com/ogimage.png`,    
+    image: `/betakopa.svg`,    
   },
   {
     position: `FullStack Developer`,
     platform: `The Boltcliq Company`,
     link: `https://boltcliq.com`,
-    image: `https://images.unsplash.com/photo-1655721533500-c73a495dbcb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80`,
+    image: `/boltcliq.svg`,
   },
   {
     position: `Web Developer`,
@@ -40,7 +40,7 @@ const portfolio = [
     position: `Frontend Engineer`,
     platform: `Dosh Services`,
     link: `https://doshservices.com`,
-    image: `https://  doshservices.com/favicon.ico`
+    image: `/dosh.svg`
   },
 ];
 

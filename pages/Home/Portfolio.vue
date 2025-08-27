@@ -14,9 +14,10 @@
             :key="index"
           >
             <a target="blank" :href="item.link">
-              <div class="">
+              <!-- The container for image and text -->
+              <div>
                 <img loading="lazy" :src="item.image" />
-                <div class="">
+                <div class="details-container">
                   <div class="details">
                     <h3 class="mb-1">{{ item.platform }}</h3>
                     <p class="">{{ item.position }}</p>
@@ -61,20 +62,39 @@ export default {
 
 .portfolio-item {
   position: relative;
-  align-items: center;
-  height: 200;
   border-radius: var(--input-border-radius) !important;
+  overflow: hidden; /* Ensures nothing spills out of the rounded corners */
+  display: flex; /* Make the card a flex container */
+  flex-direction: column; /* Stack children vertically */
 }
 
 .portfolio-item .details {
   padding: 30px;
+  width: 100%; /* Ensure details takes full width inside the container */
 }
 
+/* --- CORRECTED IMAGE STYLES --- */
 .portfolio-item img {
+  display: block; /* Removes any extra space below the image */
+  width: 100%; /* Makes the image fill the container's width */
+  height: auto; /* Maintains the image's aspect ratio */
+  max-width: 100%; /* Ensures image doesn't overflow */
   border-radius: var(--input-border-radius) var(--input-border-radius) 0 0;
-  object-fit: cover;
-  height: 200px;
 }
+
+/* --- NEW STYLES FOR ALIGNMENT --- */
+.portfolio-item a > div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Make the container fill the link */
+}
+
+.details-container {
+  flex-grow: 1; /* Allow this container to grow, pushing details to the bottom */
+  display: flex;
+  align-items: flex-end; /* Align the .details div to the bottom */
+}
+
 
 @media (max-width: 768px) {
   .portfolio-item {
@@ -86,6 +106,10 @@ export default {
 a {
   font-size: 12px;
   color: rgb(172, 172, 172);
+  text-decoration: none; /* Good practice for links wrapping content blocks */
+  display: flex; /* Make the link a flex container */
+  flex-direction: column; /* Stack its children */
+  flex-grow: 1; /* Make the link fill the card's height */
 }
 
 .icons {
